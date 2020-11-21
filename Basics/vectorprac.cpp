@@ -17,7 +17,7 @@ int main(){
 
 
     int n = 10;
-    vector<int> v2(n,5);
+    vector<int> v2(n,5);  // vector of size 10 where every element is 5
     for(auto y: v2)
         cout<<y<<" ";
     cout<<endl;
